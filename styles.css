@@ -223,6 +223,50 @@ a{
     margin-bottom: 15px;
 }
 
+/* TECHNICAL SKILLS SECTION */
+
+.section_technical-skills{
+    width: 85%;
+    background-color: #f5f5f5;
+    border: 3px solid #3b597a;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_technical-skills--header h1{
+    font-size: 3.8rem;
+    padding-top: 1.2rem;
+    font-weight: bolder;
+}
+
+.section_technical-skills_grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item{
+    padding: 0.6rem 2.2rem 1.8rem 2.2rem;
+    width: 22.5rem;
+    height: auto;
+}
+
+.grid-item--inferior h3{
+    text-align: center;
+    padding: 1rem;
+    font-size: 2.4rem;
+}
+
+.grid-item img{
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+}
+
  /*
 
  @media (max-width: 1100px) {
