@@ -170,6 +170,59 @@ a{
 }
 
 
+/* PROFESIONAL EXPERIENCE SECTION */
+
+.section_profesional-experience{
+    display: flex;
+    width: 85%;
+    background-color: #f5f5f5;
+    border: 3px solid #3b597a;
+    border-radius: 8px;
+}
+
+.section_profesional-experience_left{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    width: 35%;
+}
+
+.section_profesional-experience_left button{
+    margin: 2rem; 
+    padding: 1rem 0rem;
+    cursor: pointer;
+    font-size: 2.6rem;
+    color: #3b597a;
+    font-weight: bolder;
+    background: none;
+    border:none;
+    transition: all 0.3s ease-in-out;
+}
+
+.section_profesional-experience_left button:hover{
+    transform: scale(1.07);
+    text-decoration: underline;
+}
+
+.section_profesional-experience-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_profesional-experience-right h2, h1{
+    padding-bottom: 1.2rem;
+}
+
+.section_profesional-experience-right li{
+    list-style-type: none;
+    padding: 0.5rem 1rem;
+    line-height: 1.5;
+    border-left: 3px solid #3b597a;
+    margin-bottom: 15px;
+}
+
  /*
 
  @media (max-width: 1100px) {
