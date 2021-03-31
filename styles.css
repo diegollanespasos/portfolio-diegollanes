@@ -7,6 +7,7 @@
 
 html {
     font-size: 62.5%;
+    color: #3b597a;
 }
 
 @media (max-width: 950px) {
@@ -32,7 +33,10 @@ h3{
 }
 
 h4{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+}
+p{
+    font-size: 1.8rem;
 }
 
 a{
@@ -40,12 +44,16 @@ a{
     list-style-type: none; 
 }
 
+/* NAVBAR SECTION */
 .navbar {
     background-color: rgba(0, 0, 0, 0.85);
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0px 0px 9px;
+    width: 100%;
+    /*position: sticky;
+    position: fixed;*/
 }
 
 .navbar_left-section{
@@ -86,3 +94,97 @@ a{
 .navbar_button--primary:hover{
    border-bottom: 2.5px solid #00D1B2
 }
+
+/* ABOUT SECTION    */
+
+.section {
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.section_about{
+    display: flex;
+    margin: 0rem 5rem;
+    height: auto;
+}
+
+.section_about_left{
+    margin: 2.5rem;
+}
+
+.section_about_right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin: 2.5rem;
+    padding: 0rem 5rem;
+
+}
+
+.section_about_left img{
+    width: 300px;
+    height: auto;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 4px 0px;
+ }
+
+ .section_about_right p {
+     padding: 0.9rem;
+     color: #3b597a;
+     font-weight: 500;
+     line-height: 1.5;
+}
+
+.section_about_right h2{
+    color: #3b597a;
+    line-height: 1.5;
+    padding: 0.2rem;
+}
+
+.section_about_right h4{
+    color: #3b597a;
+    line-height: 1.5;
+    padding: 0.2rem;
+}
+
+.buttons-section{
+    display: flex;
+}
+
+.buttons-section button{
+    background-color: #20b2aa;
+    border-radius: 5Px;    
+    padding: 1rem 1rem;
+    margin: 1.5rem 2rem;
+    cursor: pointer;
+    font-size: 1.6rem;
+    color: whitesmoke;
+    border: 2px solid #3b597a;
+    box-shadow: none;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+
+ /*
+
+ @media (max-width: 1100px) {
+    .section {
+        border: 4px solid blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap
+       }
+    .section_about{
+        border: 2px solid yellowgreen;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+
+    }
+}*/
