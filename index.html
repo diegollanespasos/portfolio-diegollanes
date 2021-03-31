@@ -4,21 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diego Llanes</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link type="text/css" href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <nav id="nav-bar">
-        <div class="left-section">
-            <h1>{DIEGO LLANES}</h1>
+    <nav class="navbar">
+        <div class="navbar_left-section">
+            <a href="#home" class="navbar_button navbar_button--home">{ Diego Llanes }</a> 
         </div>
-        <div class="right-section">
-            <a href="#">HOME</a>
-            <a href="#">ABOUT</a>
-            <a href="#">PROJECTS</a>
-            <a href="#">EXPERIENCE</a>
-            <a href="#">CONTACT</a>
+        <div class="navbar_right-section">
+            <ul class="navbar_button-list">
+                <li><a class="navbar_button navbar_button--primary" href="#about">About</a></li>
+                <li><a class="navbar_button navbar_button--primary" href="#personal-experience">Personal experience</a></li>
+                <li><a class="navbar_button navbar_button--primary" href="#technical-skills">Technical skills</a></li>
+                <li><a class="navbar_button navbar_button--primary" href="#projects">Projects</a></li>
+                <li><a class="navbar_button navbar_button--primary" href="#contact">Contact</a></li>
+            </ul>
         </div>
     </nav>
+    <!--
     <section id="presentation">
         <h1>I'm Diego Llanes</h1>
         <h2>Front End Developer</h2>
@@ -78,7 +83,8 @@
             <input type="text" id="message" name="message"><br>
           </form>
           <button>SEND IT</button>
-    </section>>
+    </section>
+-->
     
 </body>
 </html>
