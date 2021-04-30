@@ -281,6 +281,7 @@ a{
 .section_projects_item--left1 img, .section_projects_item--right2 img{
     max-width: 95%;
     height: auto;
+    padding: 2rem 0rem;
  }
 
  .section_projects_item--right1, .section_projects_item--left2 {
