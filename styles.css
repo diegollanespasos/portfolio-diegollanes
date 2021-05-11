@@ -192,7 +192,6 @@ a{
 }
 
 #profesional-experience h2{
-    color: #141C3A;
     line-height: 1;
     font-size: 4.5rem;
     color: #006190;
@@ -256,21 +255,24 @@ a{
 
 /* TECHNICAL SKILLS SECTION */
 
+#technical-skills {
+    margin-top: 7rem;
+}
+
 .section_technical-skills{
-    width: 80%;
-    border-radius: 20px;
+    width: 85%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 2.5rem 0rem;
+    margin: 2rem 0rem;
     flex-wrap: wrap;
 }
 
-.section_technical-skills--header h1, .section_projects--header h1{
-    font-size: 3.8rem;
-    padding-top: 1.2rem;
-    font-weight: bolder;
+.section_technical-skills h2 {
+    line-height: 1;
+    font-size: 4.5rem;
+    color: #006190; 
 }
 
 .section_technical-skills_grid{
@@ -281,16 +283,13 @@ a{
 }
 
 .grid-item{
-    padding: 0.6rem 2.2rem 1.8rem 2.2rem;
-    width: 22.5rem;
+    width: 19rem;
     height: auto;
-    margin: 2rem;
-}
-
-.grid-item--inferior h3{
-    text-align: center;
-    padding: 1rem;
-    font-size: 2.4rem;
+    margin: 3rem;
+    padding: 1.4rem 2rem;
+    border: 0;
+    border-radius: 12px;
+    box-shadow: 0 9px 10px 0 rgb(233 240 243 / 50%), 0 0 0 1.4px #e6ecf8;
 }
 
 .grid-item img{
@@ -299,6 +298,9 @@ a{
     height: auto;
 }
 
+#react-icon{
+    padding: 2.2rem;
+}
 
 /* SECTION PROJECTS*/
 
@@ -383,7 +385,7 @@ a{
 }
 
 
-@media (max-width: 560px){   
+@media (max-width: 609px){   
     .section_about_left{
        display: none;
     }
@@ -410,12 +412,19 @@ a{
         flex-direction: column;
     }
 
+    .grid-item{
+        width: 15rem;
+        height: auto;
+        margin: 2rem;
+    }
+
     .section_projects_item--left1, .section_projects_item--right2, .section_projects_item--right1, .section_projects_item--left2 {
         width: 100%;
     }
 }
+/* 561*/
 
-@media (min-width: 561px) and (max-width:767px) {
+@media (min-width: 610px) and (max-width:767px) {
     .section_about_left{
         display: none;
     }
@@ -446,7 +455,6 @@ a{
     }
 }
 
-
 @media (min-width: 768px) and (max-width:1100px){
     .section_about_left{
         display: none;
@@ -458,6 +466,7 @@ a{
         justify-content: center;
         align-items: center;
     }
+
     .section_profesional-experience_ksquare, .section_profesional-experience-internship, .section_profesional-experience-others {
         width: 100%;
     }
