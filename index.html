@@ -9,15 +9,11 @@
     <link type="text/css" href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <section class="hero-container">
-        <div class="inner-container">
-            <h1>Im Diego Llanes</h1>
+    <section class="hero">
+        <div class="hero-container">
+            <h1>I'm <span>Diego Llanes</span></h1>
             <h3>Mechatronics Engineer & Software Developer</h3>
-            <button>Contact me</button>
-            <div class="section_about_social">
-                <a href="https://github.com/diegollanespasos"><img src="assets/linkedin.svg"/></a>
-                <a href="https://www.linkedin.com/in/diego-llanes/"/><img src="assets/github.svg"/></a>
-            </div>
+            <a class="contact-button" href="#contact">Contact me</a>
         </div>
     </section>
     <nav class="navbar">
@@ -158,55 +154,77 @@
             </div>  
                 <div class="section_projects_item">
                     <div class="section_projects_item--left1">
-                        <img src="assets/e-commerce-app.PNG"/>                
+                        <img src="assets/e-commerce-app.PNG" alt="Screenshot ecommerce app"/>                
                     </div>
                     <div class="section_projects_item--right1">
                         <h2>E-commerce App</h2>
-                        <p>An e-commerce website about clothes. To use the ap, the user needs to sign in. After that, the user can selecte differents
-                             items and add them to the cart. Finally, the user can start the payment process.
+                        <p>An e-commerce website about clothes. To use the app, the user needs to sign in. After that,
+                             the user can select differents items and add them to the cart. 
+                             Finally, the user can start the payment process.
                             </p>
-                            <p>I build this project to learn React because I was interested in Front-end. I used Redux to manage the state of the app. The project 
-                                has an authentication feature implmented using Firebase's Authentication and for the database I used Firebase's Firestore.
-                                To simulate the process of the payments in the app I used Stripe.
+                            <p>I build this project to learn React because I was interested in Front-end. 
+                                I used Redux to manage the state of the app. The project has an authentication feature
+                                 implmented using Firebase's Authentication and for the database I used Firebase's 
+                                 Firestore. To simulate the process of the payments in the app I used Stripe.
                         <h4>Built with:</h4>
                         <div class="logos-section">
-                            <a><img src="assets/react.png"/></a>
-                            <a><img src="assets/redux.png"></a>
-                            <a><img src="assets/sass.svg"/></a>
+                            <a><img src="assets/skills/react.svg" alt="React"/></a>
+                            <a><img src="assets/skills/redux.svg" alt="Redux"></a>
+                            <a><img src="assets/skills/sass.svg" alt="Sass"/></a>
                         </div>
                     </div>
                 </div>
                 <div class="section_projects_item">
                     <div class="section_projects_item--left2">
-                        <h2>Smart-Brain App</h2>
+                        <h2>Chat App</h2>
                         <p>Smart-Brain uses Clarifai API to detect face in an image. It helps to detect face in a picture provided by user through URL of image. User's rank gets upgraded everytime user detects image in a picture.</p>
                         <p>For the Front-end, I used React. For the Back-end, I used Node's Framework, Express. I used PostgreSQL to manage my DB.</p>
                         <h4>Built with:</h4>
                         <div class="logos-section">
-                            <a><img src="assets/html5.png"/></a>
-                            <a><img src="assets/css3.png"></a>
-                            <a><img src="assets/react.png"/></a>
-                            <a><img src="assets/postgresql.png"/></a>
+                            <a><img src="assets/skills/react.svg" alt="React"/></a>
                         </div>                     
                     </div>
                     <div class="section_projects_item--right2">
-                        <img src="assets/smart-brain-app1.PNG"/>    
+                        <img src="assets/projects/chat-app.PNG" alt="screenshot chat app"/>    
                     </div>
                 </div>
                 <div class="section_projects_item">
                     <div class="section_projects_item--left1">
-                        <img src="assets/kanban.PNG"/>                
+                        <img src="assets/projects/kanban-board.PNG" alt="screenshot kanban board"/>                
                     </div>
                     <div class="section_projects_item--right1">
-                        <h2>Kanban App</h2>
+                        <h2>Kanban Board</h2>
                         <p>App to manage personal tasks in 3 categorys: To Do, Doing, Done. 
                             I build a RESTful API using Express and I deployed the app with CodeDeploy from AWS.
                             For the Front-end, I used React and I deployed the project with CloudFront and S3 from AWS.</p>
                         <h4>Built with:</h4>
                         <div class="logos-section">
-                            <a><img src="assets/react.png"/></a>
-                            <a><img src="assets/css3.png"></a>
-                            <a><img src="assets/html5.png"/></a>
+                            <a><img src="assets/skills/react.svg"/></a>
+                            <a><img src="assets/skills/node.svg"></a>
+                            <a><img src="assets/skills/mysql.svg"/></a>
+                            <a><img src="assets/skills/aws.svg"/></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="section_projects_item">
+                    <div class="section_projects_item--left1">
+                        <img src="assets/projects/money-manager.PNG" alt="Screenshot money manager"/>                
+                    </div>
+                    <div class="section_projects_item--right1">
+                        <h2>Money Manager</h2>
+                        <p>An e-commerce website about clothes. To use the app, the user needs to sign in. After that,
+                             the user can select differents items and add them to the cart. 
+                             Finally, the user can start the payment process.
+                            </p>
+                            <p>I build this project to learn React because I was interested in Front-end. 
+                                I used Redux to manage the state of the app. The project has an authentication feature
+                                 implmented using Firebase's Authentication and for the database I used Firebase's 
+                                 Firestore. To simulate the process of the payments in the app I used Stripe.
+                        <h4>Built with:</h4>
+                        <div class="logos-section">
+                            <a><img src="assets/skills/react.svg" alt="React"/></a>
+                            <a><img src="assets/skills/node.svg" alt="Redux"></a>
+                            <a><img src="assets/skills/mongo.svg" alt="Sass"/></a>
                         </div>
                     </div>
                 </div>
@@ -222,8 +240,8 @@
                 diegollanespasos@hotmail.com
             </h2>
             <div class="section_about_social">
-                <a href="https://github.com/diegollanespasos"><img src="assets/linkedin.svg"/></a>
-                <a href="https://www.linkedin.com/in/diego-llanes/"/><img src="assets/github.svg"/></a>
+                <a href="https://github.com/diegollanespasos"><img src="assets/skills/git.svg"/></a>
+                <a href="https://www.linkedin.com/in/diego-llanes/"/><img src="assets/linkedin.png"/></a>
             </div>
         </div>
     </section>
