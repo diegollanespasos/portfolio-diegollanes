@@ -40,7 +40,7 @@ a{
 
 /* HERO SECTION */
 
-.hero-container {  
+.hero {  
     min-height: 100vh;
     background-image: url('./assets/hero.jpg');
     background-size: cover;
@@ -52,11 +52,55 @@ a{
     align-items: center;
 }
 
-.inner-container {
-    text-align: center;
+.hero-container {
+   /* text-align: center;
     top: 50%;
     left: 50%;
-    color: red;
+    padding: 3rem 8rem;
+    */
+
+    text-align: center;
+    width: auto;
+    max-width: 900px;
+    padding: 3rem 4rem;
+    border-radius: 1.2rem;  
+    background-color: rgba(0, 97, 144, 0.8);
+    box-shadow: 0 10px 10px 10px rgb(0 0 0 / 20%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+}
+
+.hero-container span {
+    color: #141C3A;
+}
+
+.hero-container h1 {
+    font-size: 6rem;
+    font-weight: 600;
+    padding-bottom: 2.5rem;
+
+}
+
+.hero-container h3 {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 3.5rem;
+}
+
+.contact-button {
+    text-transform: uppercase;
+    background: #141C3A;
+    border: 2px solid transparent;
+    color: #e6e6e6;
+    padding: 1rem 1rem;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 2rem;
+    cursor: poiter;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+    border-radius: .5rem;
 }
 
 /* NAVBAR SECTION */
@@ -175,11 +219,11 @@ a{
     color: #006190;
 }
 
-.section_about_right h4{
+.section_about_right p{
     color: #141C3A;
     line-height: 1.6;
     padding: 1rem 0rem;
-    font-size: 1.9rem;
+    font-size: 1.8rem;
     text-align: justify;
     line-break: 8rem;
 }
@@ -206,11 +250,7 @@ a{
     box-shadow: 0 9px 10px 0 rgb(233 240 243 / 50%), 0 0 0 1.4px #e6ecf8;
 }
 
-.section_profesional-experience h1, h3{ 
-    text-align: center;
-}
-
-.section_profesional-experience h4{ 
+.section_profesional-experience p{ 
     line-height: 2.5rem;
     text-align: justify;
 }
@@ -244,13 +284,14 @@ a{
 .section_profesional-experience h1 {
     font-size: 2.5rem;
     padding-bottom: 2.5rem;
+    text-align: center;
 }
 
 .section_profesional-experience h3 {
     font-size: 2rem;
     padding-bottom: 1rem;
     color: #006190;
-
+    text-align: center;
 }
 
 /* TECHNICAL SKILLS SECTION */
@@ -342,6 +383,7 @@ a{
  .section_projects_item--right1 p, .section_projects_item--left2 p{
     line-height: 1.5;
     padding: 0.6rem;
+    text-align: justify;
  }
 
  .section_projects_item--right1 h2, h4{
